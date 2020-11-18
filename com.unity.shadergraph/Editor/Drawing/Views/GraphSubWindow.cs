@@ -11,7 +11,7 @@ namespace UnityEditor.ShaderGraph.Drawing.Views
 
         // This needs to be something that each subclass defines on its own
         // if they all use the same they'll be stacked on top of each other at SG window creation
-        WindowDockingLayout m_DefaultLayout =new WindowDockingLayout
+        WindowDockingLayout m_DefaultLayout = new WindowDockingLayout
         {
             dockingTop = true,
             dockingLeft = false,
@@ -211,7 +211,7 @@ namespace UnityEditor.ShaderGraph.Drawing.Views
             hierarchy.Add(resizeElement);
         }
 
-#region Layout
+        #region Layout
         public void ClampToParentLayout(Rect parentLayout)
         {
             windowDockingLayout.CalculateDockingCornerAndOffset(layout, parentLayout);
@@ -265,5 +265,5 @@ namespace UnityEditor.ShaderGraph.Drawing.Views
         {
         }
     }
-#endregion
+    #endregion
 }
