@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [11.0.0] - 2020-10-21
 
+### Added
+- Added a slider to control the fallback value of the directional shadow when the cascade have no coverage.
+
 ### Fixed
 - Fixed probe volumes debug views.
 - Fixed XR single-pass rendering with legacy shaders using unity_StereoWorldSpaceCameraPos.
