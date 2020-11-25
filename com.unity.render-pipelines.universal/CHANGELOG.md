@@ -40,6 +40,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Bloom in Gamma color-space now more closely matches Linear color-space, this will mean project using Bloom and Gamma color-space may need to adjust Bloom Intensity to match previous look.
 - Autodesk Interactive Shader Graph files and folders containing them were renamed. The new file paths do not have spaces.
 - Changed shader keywords of main light shadow from toggling to enumerating
+- Optimized 2D Renderer performance by rendering straight to the backbuffer if when post processing and HDR are disabled
 
 ### Fixed
 - Fixed an issue where the 2D Renderer was incorrectly rendering transparency with normal maps on an empty background.
