@@ -59,7 +59,6 @@ The properties visible in the Inspector change depending on whether or not you e
 | **Smoothness Fade Start** | See **Smoothness Fade Start** in [Screen-space](#screen-space). |
 | **Max Ray Length**        | Controls the maximal length of global illumination rays. The higher this value is, the more expensive ray traced global illumination is. If a ray doesn't find an intersection. |
 | **Clamp Value**           | Controls the threshold that HDRP uses to clamp the pre-exposed value. This reduces the range of values and makes the reflections more stable to denoise, but reduces quality. |
-| **Upscale Radius**        | Controls the radius of the up-scaler that HDRP uses to build the reflection. The larger the radius, the more neighbors HDRP uses to build the reflection, the better the quality.<br/>This property only appears if you set **Mode** to **Performance**. |
 | **Full Resolution**       | Enable this feature to increase the ray budget to one ray per pixel, per frame. Disable this feature to decrease the ray budget to one ray per four pixels, per frame.<br/>This property only appears if you set **Mode** to **Performance**. |
 | **Sample Count**          | Controls the number of rays per pixel per frame. Increasing this value increases execution time linearly.<br/>This property only appears if you set **Mode** to **Quality**. |
 | **Bounce Count**          | Controls the number of bounces that reflection rays can do. Increasing this value increases execution time exponentially.<br/>This property only appears if you set **Mode** to **Quality**. |

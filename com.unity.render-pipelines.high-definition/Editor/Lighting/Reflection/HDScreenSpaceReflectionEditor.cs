@@ -94,7 +94,7 @@ namespace UnityEditor.Rendering.HighDefinition
         static public readonly GUIContent k_DenoiseText = EditorGUIUtility.TrTextContent("Denoise", "Enable denoising on the ray traced reflections.");
         static public readonly GUIContent k_FullResolutionText = EditorGUIUtility.TrTextContent("Full Resolution", "Enables full resolution mode.");
         static public readonly GUIContent k_DenoiseRadiusText = EditorGUIUtility.TrTextContent("Denoiser Radius", "Controls the radius of reflection denoiser.");
-        static public readonly GUIContent k_AffectsSmoothSurfacesText = EditorGUIUtility.TrTextContent("Affect Smooth Surfaces", "Denoise smooth surfaces.");
+        static public readonly GUIContent k_AffectsSmoothSurfacesText = EditorGUIUtility.TrTextContent("Affect Smooth Surfaces", "When enabled, the denoiser affects perfectly smooth surfaces.");
 
         void RayTracingQualityModeGUI()
         {
